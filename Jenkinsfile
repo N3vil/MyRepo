@@ -6,7 +6,7 @@ pipeline {
     }
     
     stages {
-        stage {
+        stage ('Hello Test'){
             steps {
                 sh 'chmod +x run.py'
                 sh 'python run.py'
